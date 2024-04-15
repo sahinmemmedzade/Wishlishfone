@@ -1,0 +1,253 @@
+.modal-content {
+    width: 700px;
+    height: 500px;
+   
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  }
+  .imageanddescription{
+    display: flex;
+    
+  }
+  .overlay{
+    background-color: black;
+  }
+  .img-showcase {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+  }
+  .quantity-control {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-display {
+    display: flex;
+    align-items: center;
+  }
+  .quantity{
+    border: 1px solid gray;
+    height: 60px;
+    margin-bottom: 3px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .quantity-buttons {
+       margin-bottom: 3px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .quantity-button {
+    border: 1px solid gray;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  
+  .img-item {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .main-image {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 999;
+  }
+  
+  img {
+    width: 240px;
+    height: 240px;
+  }
+  
+  .modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+   
+  }
+  
+  .close-icons {
+    margin-left: 700px;
+    margin-top: -20px;
+  }
+  .close-icons{
+    font-size: 35px;
+cursor: pointer;
+transition: color 0.7s;
+  }
+  .close-icons:hover{
+    color: lightgreen;
+  }
+  .product-details {
+    margin-top: 20px;
+  }
+  
+  .product-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product-details p {
+    margin-bottom: 10px;
+  }
+  
+  .product-details hr {
+    margin: 10px 0;
+  }
+  
+  .product-details input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .product-details .add-to-cart {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-details .add-to-cart:hover {
+    background-color: darkgreen;
+  }
+  @media screen and (max-width: 844px){
+.modal-content{
+  width: 600px;
+}
+.close-icons {
+  margin-left: 600px;
+  margin-top: -20px;
+}
+  }
+  @media screen and (max-width: 725px){
+    .modal-content{
+      width: 500px;
+    }
+
+    .close-icons {
+      margin-left: 500px;
+    }
+    .product-details>h2{
+      font-size: 16px;
+    }
+   .main-image{
+    width: 200px;
+    height: 200px;
+   }
+    .img-showcase>img{
+      width: 80px;
+      height: 80px;
+    }
+    .close-icons{
+      font-size: 24px;
+    }
+    @media screen and (max-width: 600px){
+      .modal-content{
+        width: 400px;
+        height: 300px;
+      }
+    .close-icons{
+      margin-left: 400px;
+    }}
+    .product-details{
+      width: 50%;
+    }
+    .image{
+      width: 50%;
+    }
+    .img-showcase>img{
+      width: 60px;
+      height: 60px;
+    }
+    .quantity{
+      width: 30px;
+      height: 50px;
+      margin-left: 25%;
+    }
+    .quantity-button{
+      width: 20px;
+      height: 25px;
+      margin-left: 5%;
+      font-size: 12px;
+  
+      margin-right: 5%;
+    }
+    .quantity-buttons{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .mainimage{
+      width: 150px;
+      height: 150px;
+    }
+    .product-details>p{
+      font-size: 12px;
+    }
+    .quantity-control{
+      width: 100%;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+    @media screen and (max-width: 430px){
+      .modal-content{
+        width: 320px;
+        height: 320px;
+      }
+      .img-showcase>img{
+        width: 40px;
+        height: 40px;
+      }
+      .main-image>img{
+        width: 120px;
+        height: 120px;
+      }
+      .close-icons{
+        margin-left: 320px;
+      }
+    }
+    @media screen and (max-width: 330px){
+      .close-icons{
+        margin-left: 290px;
+        font-size: 20px;
+      }
+      .modal-content{
+        width: 300px;
+        height: 270px;
+      }
+      .product-details>p{
+        font-size: 10px;
+      }
+    }
+  }

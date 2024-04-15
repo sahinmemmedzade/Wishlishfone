@@ -1,0 +1,176 @@
+.shopping-cartfone {
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .containercartfone {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .prev-buttonfone,
+  .next-buttonfone {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    color: #000; /* Change color as needed */
+    font-size: 1.5rem; /* Change size as needed */
+  }
+  
+  .prev-buttonfone {
+    left: 10px; /* Adjust left spacing */
+  }
+  
+  .next-buttonfone {
+    right: 10px; /* Adjust right spacing */
+  }
+  
+  .slidercartfone {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    gap: 10px; /* Add space between items */
+    transition: transform 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .product-fone {
+    width: 18%; /* Adjust width of each product */
+    position: relative;
+    height: 300px;
+  }
+  
+  .image-containerfone {
+    position: relative;
+    overflow: hidden;
+  }
+  .instagram:hover{
+color: green;
+  }
+  .shopping-cartfone:hover .prev-buttonfone{
+opacity: 1;  }
+.shopping-cartfone:hover .next-buttonfone{
+    opacity: 1;
+}
+  .prev-buttonfone,.next-buttonfone{
+    transition: opacity 1.5s,background-color 1s,color 1s;
+
+    opacity: 0;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fone{
+    color: greenyellow;
+  }
+  .prev-buttonfone:hover{
+    background-color: green;
+    color: white;
+  }
+  .next-buttonfone:hover{
+    background-color: green;
+    color: white;
+  }
+  .image1fone {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .overlayfone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Black with 70% opacity */
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-fone:hover .overlayfone {
+    display: flex; /* Show overlay on hover */
+  }
+  .instagram{
+    font-size: 40px;
+    color: white;
+    transition: color 0.5s;
+  }
+  @media screen and (max-width: 1350px){
+    .prev-buttonfone,
+    .next-buttonfone {
+        top: 40%;
+    }
+  }
+  @media screen and (max-width: 1200px){
+    .prev-buttonfone,
+    .next-buttonfone {
+        top: 30%;
+    }
+  }
+  @media screen and (max-width: 1024px){
+    .product-fone{
+        width: 30%;
+    }
+    .prev-buttonfone,
+    .next-buttonfone {
+        top: 50%;
+    }
+  }
+  @media screen and (max-width: 850px){
+    .prev-buttonfone,
+    .next-buttonfone {
+        top: 40%;
+    }
+  }
+  @media screen and (max-width: 730px){
+    .prev-buttonfone,
+    .next-buttonfone {
+        top: 30%;
+    }
+    .shopping-cartfone,.product-fone{
+        height: 260px;
+    }
+  }
+  @media screen and (max-width: 601px){
+    .product-fone{
+        width: 45%;
+    }
+
+    .prev-buttonfone,
+    .next-buttonfone {
+        width: 30px;
+        height: 30px;
+        top: 50%;
+    }
+}
+@media screen and (max-width: 529px){
+    
+    .prev-buttonfone,
+    .next-buttonfone {
+        top: 40%;
+    }
+}
+@media screen and (max-width: 420px){
+    
+    .prev-buttonfone,
+    .next-buttonfone {
+        top: 30%;
+    }
+    .shopping-cartfone,.product-fone{
+        height: 220px;
+    }
+}

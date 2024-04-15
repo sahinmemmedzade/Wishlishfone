@@ -1,0 +1,376 @@
+navbar {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1001;
+    width: 100%;
+    margin-bottom: 10px; 
+    background-color: aliceblue;/* Add margin bottom to create space */
+
+}
+
+.logo > img {
+    height: 70%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.bigmenu {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bigmenu > a {
+    text-decoration: none;
+    color: black;
+}
+
+.hot {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.hot-box {
+    width: 30px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    top: -30%;
+    transform: translateY(-50%);
+    left: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    z-index: 2;
+}
+
+.shopimg{
+  width: 40px;
+
+  height: 40px;
+}
+
+.navbaricon {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.navbaricon > svg {
+    font-size: 20px;
+}
+
+.search-box {
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 75%, rgba(0, 0, 0, 0.2) 25%);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items:start;
+}
+
+
+
+.search-content {
+    position: relative;
+    background-color: transparent; 
+}
+
+.search-content h1 {
+    margin-top: 0; 
+    margin-bottom: 80px; 
+    text-align: center; 
+    color: black; 
+}
+
+.search-content input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: black; 
+    border-bottom: 1px solid black; 
+    margin: 20px auto 0; 
+}
+
+.search-icon {
+    position: absolute;
+    top: 10px; 
+    right: 10px; }
+
+
+
+
+.close-icon {
+    background-color: black; 
+    color: white; 
+    cursor: pointer; 
+    position: absolute; 
+    top: 10px; 
+    left: 850px; 
+    padding: 5px; 
+    border-radius: 50%;
+    transition: background-color 0.3s; 
+}
+.close-icon:hover {
+    background-color: aqua; 
+}
+.sidebar {
+  background-color: antiquewhite;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  max-height: 100vh; /* Belirli bir yükseklik */
+  overflow-y: auto;
+  z-index: 1002;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(100%);
+}
+.sidebarproduct{
+  display: flex;
+  margin-top: 5px;
+
+}
+.gototheshop{
+  margin-left: 30%;
+}
+.back-link{
+  text-decoration: none;
+  color: white;
+  
+}
+.mddelete{
+  height: 100%;
+  height: 100px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebarproduct>img{
+  width: 100px;
+  height: 100px;
+}
+.sidebar.open {
+    transform: translateX(0); 
+  }
+.menu.open{
+  display: none;
+}
+  .shopsidebartop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+.shopcloseicon{
+    width: 15%;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.shophead{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopcount{
+    width: 15%;
+    border-left: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopsidebarmedium{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.gototheshop{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    transition:0.4s;
+}
+.gototheshop:hover {
+    background-color: green;
+}
+.shopcloseicon >svg:hover{
+color: aqua;
+}
+.bigmenu > a {
+    position: relative; 
+    color: black;
+    text-decoration: none;
+}
+
+.bigmenu > a::after {
+    content: ''; 
+    position: absolute;
+    bottom: 0; 
+    left: 0; 
+    width: 0; 
+    height: 2px; 
+    background-color: aqua; 
+    transition: width 0.3s ease-in-out; 
+}
+
+.bigmenu > a:hover::after {
+    width: 100%; 
+}
+
+.bigmenu > a:not(:hover)::after {
+    width: 0; }
+
+.bigmenu > a:hover + a::after,
+.bigmenu > a:hover ~ a::after {
+    display: none;
+}
+
+.menusidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: white;
+    z-index: 998;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .menusidebar.open {
+    transform: translateX(0);
+  }
+  
+  .menu-content >svg {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+    padding-bottom: 10px; /* Adjusted padding to match the bottom border */
+    border-bottom: 1px solid red; /* Added bottom border */
+  }
+  
+  .menu-content a:hover {
+    color: blue;
+  }
+  
+  .menu-content a:last-child {
+    border-bottom: none; /* Remove bottom border from the last link */
+  }
+  
+  .close-menu {
+    width: 100%;
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5%;
+    transition: background-color 0.3s ease-in-out;
+    text-align: center;
+    margin-top: auto; /* Alt kısmına yerleştir */
+  }
+  
+  /* Menü altında görünecek, menü içeriğiyle hizalanacak */
+  .menubottom {
+    padding: 20px;
+    border-top: 1px solid #ccc; /* Üst kenarlık */
+    text-align: center;
+  }
+  
+  .littlemenu {
+    width: 25%;
+    display: flex;
+    flex-direction: column; /* Yeni eklenen satır */
+    justify-content: start;
+    margin-left: 5%;
+z-index: 0;  }
+  
+  .littlemenu a {
+    position: relative;
+    color: black;
+    text-decoration: none;
+    width: 200px;
+    height: 30px;
+    border-bottom: 1px solid black;
+  }
+  
+  .menutop {
+    width: 200%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    background-color: bisque;
+  }
+  
+  .menuicon,
+  .personicon {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menuicon > svg,
+  .personicon > svg {
+    margin-right: 5px;
+  }
+  
+  .menuicon > span,
+  .personicon > span {
+    font-size: 16px;
+  }
+  
+  
+  @media (max-width: 1500px) {
+    .bigmenu{
+        width:50%;
+    }
+  }
+  
+  /* @media (max-width: 550px) {
+   .menusidebar{
+    width: 150px;
+   }
+   .sidebar{
+    width: 200px;
+   }
+  } */
+ 
+  @media (max-width: 1199px) {
+    .bigmenu {
+      display: none;
+    }
+  }

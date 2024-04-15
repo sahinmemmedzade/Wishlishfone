@@ -1,0 +1,48 @@
+.containbacktotop {
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    left: calc(100% - 70px);
+        z-index: 1100;
+  }
+  
+  .backtotop {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; 
+  }
+  
+  .backtotop:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7); 
+    background-color: yellowgreen;
+    border: greenyellow;
+    color: white;
+  }
+  .growLight {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: rgba(101, 151, 121, 0.7);
+    transition: width 0.8s ease, height 0.8s ease, right 0.8s ease, top 0.8s ease,opacity 6.6s; /* Adjust transition duration */
+  }
+  
+  .backtotop:hover .growLight {
+    width: 100%;
+    height: 100%;
+    right: auto;
+    left: 0;
+    opacity: 0;
+    top: auto;
+    bottom: 0;
+  }
+  

@@ -1,0 +1,62 @@
+.table{
+    width: 100%;
+}
+.containtable{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.itemcount{
+    font-size: 24px;
+
+}
+.delete{
+    font-size: 24px;
+}
+.tdname{
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 5%;
+    width: 20%;
+}
+.td{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+td{
+    width: 200px;
+}
+.tr{
+    display: flex;
+}
+.td>img{
+    width: 300px;
+}
+.total{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+@media screen and (max-width:900px) {
+    .td>img{
+        width: 200px;
+    }
+    .td{
+        width: 300px;
+        align-items: start;
+        
+    }
+    .tdname{
+        width: 15%;
+    }
+    .tdprice{
+        width: 25%;
+      text-align: center;
+    }
+
+}

@@ -1,0 +1,233 @@
+{"products": [
+    {
+      "id": "1",
+      "image1": "https://fone-store-demo.myshopify.com/cdn/shop/products/4.jpg?v=1660623210",
+      "image2":"https://fone-store-demo.myshopify.com/cdn/shop/products/2_f70ac80a-9406-4bd3-aa52-1b3d89451250.jpg?v=1660623210",
+      "name": "Pizza Hut",
+      "price": 23,
+      "issale":false,
+      "count":1
+
+    },
+    {
+      "id": "2",
+      "image1": "//fone-store-demo.myshopify.com/cdn/shop/products/7.jpg?v=1660623200",
+      "image2":"https://fone-store-demo.myshopify.com/cdn/shop/products/5_966e629d-15d0-431a-bf1b-12f87665c666.jpg?v=1660623200",
+      "name": "Mixed Vegetables",
+      "price": 20,
+      "issale":false,
+      "count":1
+
+    },
+    {
+      "id": "3",
+      "image1": "//fone-store-demo.myshopify.com/cdn/shop/products/8.jpg?v=1660623196",
+      "image2": "//fone-store-demo.myshopify.com/cdn/shop/products/7.jpg?v=1660623200",
+
+      "name": "Hamburgers",
+      "price": 20,
+      "issale":false,
+      "count":1
+
+    },
+    {
+      "id": "4",
+      "image1": "//fone-store-demo.myshopify.com/cdn/shop/products/10.jpg?v=1660623189",
+      "image2": "https://fone-store-demo.myshopify.com/cdn/shop/products/4.jpg?v=1660623210",
+"is10":true,
+      "name": "Shawarma Kati",
+      "price": 20, 
+      "price1":22,
+           "issale":false,
+           "count":1
+
+    },
+    {
+      "id": "5",
+      "image1": "//fone-store-demo.myshopify.com/cdn/shop/products/11.jpg?v=1660623186",
+      "image2":"https://fone-store-demo.myshopify.com/cdn/shop/products/9_19e7e8bf-c1f7-43e4-9106-d73aa63d6a93.jpg?v=1660623186",
+      "name": "Shish Kebab Pizza",
+      "price": 21,
+      "issale":false,
+      "count":1
+
+    },
+    {
+      "id": "6",
+      "image1": "//fone-store-demo.myshopify.com/cdn/shop/products/13.jpg?v=1660623179",
+      "image2":"https://fone-store-demo.myshopify.com/cdn/shop/products/6_842abb24-1bb8-4c2c-90d4-a7ea4b2032a3.jpg?v=1660623179",
+      "name": "Pepperoni Pizza",
+      "price": 26,
+      "issale":false,
+      "count":1
+
+    },
+    {
+      "id": "7",
+      "image1": "//fone-store-demo.myshopify.com/cdn/shop/products/14.jpg?v=1660623176",
+      "image2":"https://fone-store-demo.myshopify.com/cdn/shop/products/12_b917cbe1-7c9b-422e-abde-10cfb4df22b9.jpg?v=1660623176",
+      "name": "Marinated Chicken",
+      "price": 28,
+      "price1":30,
+
+      "issale":true,
+      "count":1
+    },
+    {
+      "id": "8",
+      "image1": "https://fone-store-demo.myshopify.com/cdn/shop/products/4.jpg?v=1660623210",
+      "image2":"https://fone-store-demo.myshopify.com/cdn/shop/products/12_b917cbe1-7c9b-422e-abde-10cfb4df22b9.jpg?v=1660623176",
+      "name": "Sushi Sashimi",
+      "price": 20,
+      "issale":false,
+      "count":1
+
+    }
+  ],
+  "modalproducts": [
+    {
+   "id":"1", 
+"image1":"https://fone-store-demo.myshopify.com/cdn/shop/products/4.jpg?v=1660623210",
+"image2":"https://cdn.shopify.com/s/files/1/0659/7541/9136/products/1_348bd7e8-b65d-4d45-afc5-24490d36d9af_grande.jpg",
+"image3":"https://fone-store-demo.myshopify.com/cdn/shop/products/2_f70ac80a-9406-4bd3-aa52-1b3d89451250.jpg?v=1660623210",
+"name": "Pizza Hut",
+"price": 23,
+"description":"Things You Need To Know There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration...",
+"count":1
+},
+{
+  "id": "2",
+      "image1": "//fone-store-demo.myshopify.com/cdn/shop/products/7.jpg?v=1660623200",
+      "image2":"https://fone-store-demo.myshopify.com/cdn/shop/products/6_842abb24-1bb8-4c2c-90d4-a7ea4b2032a3.jpg?v=1660623179",
+      "image3":"https://fone-store-demo.myshopify.com/cdn/shop/products/5_966e629d-15d0-431a-bf1b-12f87665c666.jpg?v=1660623200",
+      "name": "Mixed Vegetables",
+      "price": 20,
+      "description":"Things You Need To Know There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration...",
+      "count":1
+},
+{
+  "id": "3",
+  "image1": "//fone-store-demo.myshopify.com/cdn/shop/products/8.jpg?v=1660623196",
+  "image2":"https://cdn.shopify.com/s/files/1/0659/7541/9136/products/1_348bd7e8-b65d-4d45-afc5-24490d36d9af_grande.jpg",
+  "image3": "//fone-store-demo.myshopify.com/cdn/shop/products/7.jpg?v=1660623200",
+      "name": "Hamburgers",
+      "price": 20,
+      "description":"Things You Need To Know There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration...",
+      "count":1
+},
+{
+  "id": "4",
+  "image1": "//fone-store-demo.myshopify.com/cdn/shop/products/10.jpg?v=1660623189",
+  "image2":"https://cdn.shopify.com/s/files/1/0659/7541/9136/products/7_b6b00905-62d7-4c74-b718-d56ac06d608e_grande.jpg",
+  "image3": "https://fone-store-demo.myshopify.com/cdn/shop/products/4.jpg?v=1660623210",
+"is10":true,
+  "name": "Shawarma Kati",
+  "price": 20, 
+  "description":"Things You Need To Know There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration...",
+  "count":1
+},
+{
+  "id": "5",
+  "image1": "//fone-store-demo.myshopify.com/cdn/shop/products/11.jpg?v=1660623186",
+  "image3":"https://fone-store-demo.myshopify.com/cdn/shop/products/9_19e7e8bf-c1f7-43e4-9106-d73aa63d6a93.jpg?v=1660623186",
+  "image2":"https://cdn.shopify.com/s/files/1/0659/7541/9136/products/10_b21896ea-162b-469b-afed-f906a51ba939_grande.jpg",
+  "price": 21,
+
+  "name": "Shish Kebab Pizza",
+  "description":"Things You Need To Know There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration...",
+  "count":1
+},
+{
+  "id": "6",
+  "image1": "//fone-store-demo.myshopify.com/cdn/shop/products/13.jpg?v=1660623179",
+  "image2":"https://cdn.shopify.com/s/files/1/0659/7541/9136/products/5_80b7eda8-6168-4f24-88dc-514308ffb350_grande.jpg",
+  "image3":"https://fone-store-demo.myshopify.com/cdn/shop/products/6_842abb24-1bb8-4c2c-90d4-a7ea4b2032a3.jpg?v=1660623179",
+  "price": 26,
+
+  "name": "Pepperoni Pizza",
+  "description":"Things You Need To Know There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration...",
+  "count":1
+},
+{
+  "id": "7",
+  "image1": "//fone-store-demo.myshopify.com/cdn/shop/products/14.jpg?v=1660623176",
+  "image2":"https://cdn.shopify.com/s/files/1/0659/7541/9136/products/11_0bc02732-ec6e-42fa-8586-b4073e4edcdb_grande.jpg",
+  "image3":"https://fone-store-demo.myshopify.com/cdn/shop/products/12_b917cbe1-7c9b-422e-abde-10cfb4df22b9.jpg?v=1660623176",
+  "name": "Marinated Chicken", 
+  "price": 28,
+
+  "description":"Things You Need To Know There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration...",
+  "count":1
+},
+{
+  "id": "8",
+      "image1": "https://fone-store-demo.myshopify.com/cdn/shop/products/4.jpg?v=1660623210",
+      "image2":"https://cdn.shopify.com/s/files/1/0659/7541/9136/products/11_2bc18938-edae-4f6e-b988-0413013ccb7c_grande.jpg",
+      "image3":"https://fone-store-demo.myshopify.com/cdn/shop/products/12_b917cbe1-7c9b-422e-abde-10cfb4df22b9.jpg?v=1660623176",
+      "name": "Sushi Sashimi",
+      "description":"Things You Need To Know There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration...",
+      "price": 20,
+      "count":1
+
+}
+],
+"hotdeal":[
+  {
+    "id": "1",
+    "image1":"https://cdn.shopify.com/s/files/1/0659/7541/9136/products/6_grande.jpg",
+    "image2":"https://cdn.shopify.com/s/files/1/0659/7541/9136/products/4_b028b654-3fee-443d-b3cd-4612b540cddc_grande.jpg",
+    "name": "French Fires",
+    "price1": 23,
+    "price":22,
+    "issale":true
+  },
+  {
+    "id": "2",
+    "image1": "//fone-store-demo.myshopify.com/cdn/shop/products/7.jpg?v=1660623200",
+    "image2":"https://fone-store-demo.myshopify.com/cdn/shop/products/5_966e629d-15d0-431a-bf1b-12f87665c666.jpg?v=1660623200",
+    "name": "Mixed Vegetables",
+    "price": 20,
+    "issale":false
+
+  },
+  {
+    "id": "3",
+    "image1": "//fone-store-demo.myshopify.com/cdn/shop/products/8.jpg?v=1660623196",
+    "image2": "//fone-store-demo.myshopify.com/cdn/shop/products/7.jpg?v=1660623200",
+
+    "name": "Hamburgers",
+    "price": 20,
+    "issale":false
+
+  },
+  {
+    "id": "6",
+    "image1": "//fone-store-demo.myshopify.com/cdn/shop/products/13.jpg?v=1660623179",
+    "image2":"https://fone-store-demo.myshopify.com/cdn/shop/products/6_842abb24-1bb8-4c2c-90d4-a7ea4b2032a3.jpg?v=1660623179",
+    "name": "Pepperoni Pizza",
+    "price": 26,
+    "issale":false
+
+  }
+],
+"foneinstagram":[
+{"id":"1",
+"image":"https://fone-store-demo.myshopify.com/cdn/shop/files/instagram2.jpg?v=1894195393477621074"
+},
+{
+  "id":"2",
+  "image":"https://fone-store-demo.myshopify.com/cdn/shop/files/instagram3.jpg?v=17838142662617375005" 
+},
+{
+  "id":"3",
+  "image":"https://fone-store-demo.myshopify.com/cdn/shop/files/instagram4.jpg?v=7518878493186747453" 
+},
+{
+  "id":"4",
+  "image":"https://fone-store-demo.myshopify.com/cdn/shop/files/instagram5.jpg?v=12825366261451247248"
+},
+{
+  "id":"5",
+  "image":"https://fone-store-demo.myshopify.com/cdn/shop/files/instagram6.jpg?v=18319118515380831519"
+}
+]}

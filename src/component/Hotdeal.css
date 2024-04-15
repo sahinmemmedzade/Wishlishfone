@@ -1,0 +1,138 @@
+.shopping-cart-hotdeal{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.containercart{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+.carousel-wrapper {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS */
+  }
+  
+  .carousel-slide {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+  }
+  
+  /* Deactivate carousel effect for screens wider than 999px */
+  @media (min-width: 1000px) {
+    .carousel-wrapper {
+      display: block;
+      overflow-x: visible;
+      scroll-snap-type: none;
+      -webkit-overflow-scrolling: auto;
+    }
+  }
+ 
+    .lefticon,
+    .righticon {
+      display: none; /* 999 pikselden küçükse prev ve next ikonlarını gizle */
+    }
+  
+  
+.image-container>img{
+    height: 300px;
+    width: 100%;
+}
+  .slidercart{
+    width:98%;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+  }
+.shopping-carthotdeal{
+    height: 650px;
+}
+  .next-buttons,.prev-buttons{
+    display: none;
+    background-color: white;
+    z-index: 1;
+    margin-bottom: 120px;
+  }
+  .lefticon,.righticon{
+    display: none;
+  }
+  @media (max-width: 1150px){
+.product-cart{
+    margin-top: 300px;
+}
+  }
+  @media (max-width: 1000px){
+.next-buttons,.prev-buttons{
+    display: block;
+    margin-top: 150px;
+}  
+.slidercart{
+    height: 500px;
+}
+}
+@media (max-width: 750px){
+    .slidercart{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .product-hotdeal{
+width: 45%;
+    }
+}
+@media (max-width: 490px){
+.image-container>img{
+height: 200px;
+
+}
+.product-cart{
+    margin-top: 200px;
+}
+.containercart{
+    height: 400px;
+}
+.slidercart{
+    height: 300px;
+    margin-top: 20%;
+}
+}
+@media (max-width: 390px){
+    .sale-tag-hotdeal{
+        width: 40px;
+     top: 7%;   
+    }
+    .image-container>img{
+    height: 150px;
+    margin-top: -20px;
+    }
+    .product-cart{
+        margin-top: 140px;
+    }
+    .containercart{
+        height: 350px;
+    }
+    .slidercart{
+        height: 250px;
+        margin-top: 20%;
+    }
+    .cart-icons-hotdeal{
+        top: 100px;
+    }
+
+    }
+    @media (max-width: 320px){
+.product-cart>h3{
+    font-size: 12px;
+}
+.product-cart>p{
+    font-size: 10px;
+}
+
+    }

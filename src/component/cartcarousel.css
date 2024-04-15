@@ -1,0 +1,153 @@
+.slider-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.navigation {
+  display: flex;    
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation div {
+  display: flex;
+  gap: 10px;
+}
+
+.navigation div svg {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 100%;
+  margin-top: 100px;
+}
+
+.lefticon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.righticon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.lefticon:hover {
+  background-color: green;
+}
+
+.righticon:hover {
+  background-color: green;
+}
+
+.navigation div svg:hover {
+  background-color: green;
+  color:white;
+}
+
+.description>h2:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.prev-icon {
+  order: 1;
+}
+
+.next-icon {
+  order: 3;
+}
+
+.slider {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.cart {
+  width: calc(33.33% - 10px); /* her slidede 3 kartın yan yana gelmesi */
+  max-width: 360px; /* her kartın maksimum genişliği */
+  height: 120px;
+  border: 2px solid gray;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.cart:hover {
+  border-color: black;
+}
+
+.cart img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.description {
+  flex: 1;
+}
+.navigation{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.navigation>h3{
+  letter-spacing: 1px;
+}
+.navigation>span{
+  width: 8%;
+  border-top: 3px solid green;
+}
+@media screen and (max-width: 1230px) {
+  .slider {
+    flex-wrap: nowrap; /* Kartların alt alta sıralanması */
+    overflow-x: auto; /* Yatay kaydırma çubuğu görüntülenmesi */
+  }
+  
+  .cart {
+    width: calc(50% - 10px); /* her slidede 2 kartın yan yana gelmesi */
+  }
+}
+@media screen and (max-width: 800px) {
+  .cart{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .cart{
+    height:140px ;
+  }
+.description>p{
+  font-size: 14px;
+}
+}
